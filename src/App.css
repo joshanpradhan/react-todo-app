@@ -1,0 +1,47 @@
+body{
+  background:#EAF0F1;
+  font-size:15px;
+}
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text]{
+  width: 60%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.btn {
+  border: 2px solid black;
+  border-radius: 7px;
+  background-color: white;
+  color: black;
+  padding: 10px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* Green */
+.success {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
